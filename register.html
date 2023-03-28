@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>register</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"/>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div id="myalert" style="display:none;">
+            <div class="alert alert-info">
+                <center><span id="alerttext"></span></center>
+            </div>
+        </div>
+    </div>
+     
+    <div class="row loginreg" id="loginform">
+        <p><h1><i class="fa fa-lock" aria-hidden="true"></i> Login</h1></p>
+        <form role="form" id="logform">
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fas fa-user-tie"></i></span>
+                <input class="form-control" placeholder="Username" name="username" id="username" type="text" autofocus>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fa fa-key icon"></i></span>
+                <input class="form-control" placeholder="Password" name="password" id="password" type="password">
+            </div>
+            <div>
+                <button type="button" id="loginbutton" class="btn btn-lg btn-primary btn-block"><i class="fa fa-lock" aria-hidden="true"></i> <span id="logtext">Login</span></button>
+            </div>
+             
+            <center><div style="border:1px solid black;height:1px;width:300px;margin-top:20px;"></div></center>
+              
+            <div class="footer">
+                <p>have an Account! <a href="#" id="signup">Login</a></p>
+                <p>Forgot <a href="#">Password?</a></p>
+            </div>
+        </form>
+    </div>   
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>

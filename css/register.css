@@ -1,0 +1,19 @@
+.container{
+    border:2px solid green;
+    text-align:center;
+     
+    height:500px;
+    width:500px;
+}
+body{
+    padding:70px;
+    background-color: whitesmoke;
+}
+.loginreg {
+    height:90px;
+    width:496px;
+    background-color:rgb(108, 216, 108);
+}
+.row p { 
+    padding-top:10px;
+}

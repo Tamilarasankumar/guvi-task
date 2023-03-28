@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>profile</title>
+   <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/@redislabs/redis-async-browser"></script>
+   <link rel="stylesheet" href="css/profile.css">
+   <script src="js/index.js"></script>
+</head>
+
+<body>
+   
+<div class="form-container">
+
+   <form id='profileform' action="php/profile.php" method="POST">
+      <h3>PROFILE DETAILS</h3>
+      <input type="text" id="name" name="name" required placeholder="enter your name">
+      <input type="text" id="age" name="age" required placeholder="enter your age">
+      <input type="date" id="date" name="date" required placeholder="enter your dateofbirth">
+      <input type="text" id="contact" name="contact" required placeholder="enter your contact number">
+      <input type="submit"  id='submit' value="submit" class="form-btn">
+   </form>
+
+</div>
+</body>
+</html>
